@@ -56,7 +56,7 @@ module.exports = (robot) ->
     #res.send "Calling service #{url}"
     robot.http(url)
         .header('Accept', 'application/json')
-        .header('Authorization', 'BASIC password')
+        .header('Authorization', 'BASIC a2ltc2luZzE1QGhvdG1haWwuY29tOmpqdFhNYjJXVVZWckRBdjg1M1NqdG9mVjZlYTVmdGxuS3p1UmRrVlozZ2hJN0g3dTJqeHBSUQ==')
         .get() (err, response, body) ->
           if err
             res.send "Call to get treintijden failed"
